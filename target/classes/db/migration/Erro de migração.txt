@@ -1,0 +1,3 @@
+Caso ocorra erros na migração do BD, rode esse comando no banco:
+
+delete from flyway_schema_history where success = 0;
